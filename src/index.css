@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+.hero {
+  background-image: url(assets/imagens/banner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.destino {
+  background-image: url(assets/imagens/aviao-destino.png);
+  background-repeat: no-repeat;
+  background-position: right top 10px;
+  background-size: 330px;
+}
