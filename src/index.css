@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+body {
+  background-color: #FDFDFD;
+}
+
 .hero {
   background-image: url(assets/imagens/banner.png);
   background-repeat: no-repeat;
@@ -12,4 +16,10 @@
   background-repeat: no-repeat;
   background-position: right top 10px;
   background-size: 330px;
+}
+
+@media (max-width: 768px) {
+  .destino {
+    background-image: none;
+  }
 }
