@@ -9,13 +9,13 @@ function Header() {
   const closeMenu = () => setIsOpen(false);
 
   return (
-    <header className="bg-white/10 backdrop-blur-md fixed top-0 left-0 w-full p-3">
-      <nav className="flex justify-between items-center max-w-7xl mx-auto px-8 md:px-2">
+    <header className="bg-white/10 backdrop-blur-md fixed top-0 left-0 w-full p-3 z-50">
+      <nav className="flex justify-between items-center max-w-7xl mx-auto px-8 lg:px-2">
         <img className="w-26" src={logo} alt="World Connect" />
 
         <div className="flex items-center font-medium text-[#1D1D1D] gap-6">
           {/* Menu desktop */}
-          <ul className="hidden md:flex space-x-6">
+          <ul className="hidden lg:flex space-x-6">
             <li className="hover:text-[#79a73d]">
               <a href="#">Destinos</a>
             </li>
@@ -31,12 +31,12 @@ function Header() {
           </ul>
         </div>
 
-        <Button className="text-white hidden md:block">
+        <Button className="text-white hidden lg:block">
           Fale com um especialista
         </Button>
 
         <button
-          className="md:hidden text-[#1D1D1D] text-2xl cursor-pointer"
+          className="lg:hidden text-[#1D1D1D] text-2xl cursor-pointer"
           onClick={() => setIsOpen(true)}
         >
           <FaBars />
@@ -45,7 +45,7 @@ function Header() {
 
       {/* Menu mobile */}
       <ul
-        className={`fixed top-0 right-0 h-dvh w-80 md:hidden z-50 flex flex-col text-[#1D1D1D] bg-[#1D1D1D] shadow-xl transform transition-transform duration-500 ${
+        className={`fixed top-0 right-0 h-dvh w-80 lg:hidden z-50 flex flex-col text-[#1D1D1D] bg-[#1D1D1D] shadow-xl transform transition-transform duration-500 ${
           isOpen ? "translate-x-0" : "translate-x-full"
         }`}
       >
