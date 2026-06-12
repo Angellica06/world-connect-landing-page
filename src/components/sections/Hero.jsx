@@ -2,13 +2,13 @@ import Button from "../ui/Button";
 
 function Hero() {
   return (
-    <section className="hero grid grid-cols-1 md:grid-cols-2 justify-center items-center px-12 md:px-32 mt-8">
+    <section className="hero grid grid-cols-1 lg:grid-cols-2 justify-center items-center px-12 lg:px-32 mt-8">
       <div className="flex flex-col gap-4">
-        <h1 className="text-5xl font-semibold">
+        <h1 className="text-4xl md:text-5xl font-semibold">
           Descubra o mundo através de experiências que{" "}
           <span className="text-[#8dda1a]">transformam vidas</span>.
         </h1>
-        <p className="max-w-xl text-lg text-gray-800">
+        <p className="max-w-xl text-md md:text-lg text-gray-800">
           Estude, trabalhe e viva experiências inesquecíveis em mais de 20
           países com o suporte completo da World Connect.
         </p>

@@ -1,6 +1,6 @@
 function ComoFunciona() {
   return (
-    <section className="bg-[#153130] text-white destino h-full px-12 md:px-32 py-14">
+    <section className="bg-[#153130] text-white destino h-full px-12 lg:px-32 py-14">
       <p className="text-sm">COMO FUNCIONA</p>
       <h1 className="text-3xl font-medium">Encontre seu destino em 4 passos</h1>
 
