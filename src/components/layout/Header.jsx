@@ -17,16 +17,22 @@ function Header() {
           {/* Menu desktop */}
           <ul className="hidden lg:flex space-x-6">
             <li className="hover:text-[#79a73d]">
-              <a href="#">Destinos</a>
+              <a href="#inicio">Início</a>
             </li>
             <li className="hover:text-[#79a73d]">
-              <a href="#">Como Funciona</a>
+              <a href="#destino">Destinos</a>
             </li>
             <li className="hover:text-[#79a73d]">
-              <a href="#">Beneficios</a>
+              <a href="#comofunciona">Como Funciona</a>
             </li>
             <li className="hover:text-[#79a73d]">
-              <a href="#">Depoimentos</a>
+              <a href="#beneficios">Benefícios</a>
+            </li>
+            <li className="hover:text-[#79a73d]">
+              <a href="#depoimentos">Depoimentos</a>
+            </li>
+            <li className="hover:text-[#79a73d]">
+              <a href="#contato">Contato</a>
             </li>
           </ul>
         </div>
@@ -62,25 +68,36 @@ function Header() {
         {/* Links */}
         <div className="flex flex-col items-center gap-6 mt-2 text-md font-medium">
           <li className="w-full text-center text-white p-3 hover:bg-[#8dda1a] hover:text-[#1D1D1D] transition">
-            <a href="#" onClick={closeMenu}>
+            <a href="#inicio" onClick={closeMenu}>
               Início
             </a>
           </li>
-
           <li className="w-full text-center text-white p-3 hover:bg-[#8dda1a] hover:text-[#1D1D1D] transition">
-            <a href="#" onClick={closeMenu}>
-              Sobre
+            <a href="#destino" onClick={closeMenu}>
+              Destinos
             </a>
           </li>
 
           <li className="w-full text-center text-white p-3 hover:bg-[#8dda1a] hover:text-[#1D1D1D] transition">
-            <a href="#" onClick={closeMenu}>
-              Projetos
+            <a href="#comofunciona" onClick={closeMenu}>
+              Como Funciona
             </a>
           </li>
 
           <li className="w-full text-center text-white p-3 hover:bg-[#8dda1a] hover:text-[#1D1D1D] transition">
-            <a href="#" onClick={closeMenu}>
+            <a href="#beneficios" onClick={closeMenu}>
+              Benefícios
+            </a>
+          </li>
+
+          <li className="w-full text-center text-white p-3 hover:bg-[#8dda1a] hover:text-[#1D1D1D] transition">
+            <a href="#depoimentos" onClick={closeMenu}>
+              Depoimentos
+            </a>
+          </li>
+
+          <li className="w-full text-center text-white p-3 hover:bg-[#8dda1a] hover:text-[#1D1D1D] transition">
+            <a href="#contato" onClick={closeMenu}>
               Contato
             </a>
           </li>

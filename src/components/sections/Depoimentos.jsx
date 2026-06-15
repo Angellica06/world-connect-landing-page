@@ -26,7 +26,7 @@ const depoimentos = [
 
 function Depoimentos() {
   return (
-    <section className="depoimento h-full px-12 lg:px-32 py-14">
+    <section id="depoimentos" className="depoimento h-full px-12 lg:px-32 py-14">
       <div className="max-w-md">
         <p className="text-sm">DEPOIMENTOS</p>
         <h1 className="max-w-sm text-3xl font-medium">

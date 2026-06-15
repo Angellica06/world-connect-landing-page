@@ -54,7 +54,7 @@ const beneficios = [
 
 function Beneficio() {
   return (
-    <section className="px-12 lg:px-32 py-20 bg-[#f8faf8]">
+    <section id="beneficios" className="px-12 lg:px-32 py-20 bg-[#f8faf8]">
       <div className="max-w-md">
         <p className="text-sm font-medium">
           POR QUE FAZER INTERCÂMBIO?

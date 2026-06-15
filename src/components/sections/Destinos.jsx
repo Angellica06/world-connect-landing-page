@@ -40,7 +40,7 @@ const destinos = [
 
 function Destinos() {
   return (
-    <section className="destino h-full px-12 lg:px-32 py-14">
+    <section id="destino" className="destino h-full px-12 lg:px-32 py-14">
       <div className="max-w-md">
         <p className="text-sm">DESTINOS POPULARES</p>
         <h1 className="text-3xl font-medium">

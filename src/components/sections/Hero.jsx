@@ -2,7 +2,7 @@ import Button from "../ui/Button";
 
 function Hero() {
   return (
-    <section className="hero grid grid-cols-1 lg:grid-cols-2 justify-center items-center px-12 lg:px-32 mt-8">
+    <section id="inicio" className="hero grid grid-cols-1 lg:grid-cols-2 justify-center items-center px-12 lg:px-32 mt-8">
       <div className="flex flex-col gap-4">
         <h1 className="text-4xl md:text-5xl font-semibold">
           Descubra o mundo através de experiências que{" "}
