@@ -1,9 +1,9 @@
 import DestinoCard from "../ui/DestinoCard";
-import Imagem1 from "../../assets/imagens/canada.jpg";
-import Imagem2 from "../../assets/imagens/irlanda.jpg";
-import Imagem3 from "../../assets/imagens/australia.jpg";
-import Imagem4 from "../../assets/imagens/estadosunidos.jpg";
-import Imagem5 from "../../assets/imagens/reinounido.png";
+import Imagem1 from "../../assets/imagens/canada.webp";
+import Imagem2 from "../../assets/imagens/irlanda.webp";
+import Imagem3 from "../../assets/imagens/australia.webp";
+import Imagem4 from "../../assets/imagens/estadosunidos.webp";
+import Imagem5 from "../../assets/imagens/reinounido.webp";
 
 const destinos = [
   {

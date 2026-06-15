@@ -10,7 +10,7 @@ html {
 }
 
 .hero {
-  background-image: url(assets/imagens/banner.png);
+  background-image: url(assets/imagens/banner.webp);
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
