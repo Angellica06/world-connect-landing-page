@@ -18,6 +18,13 @@ body {
   background-size: 330px;
 }
 
+.depoimento {
+  background-image: url(assets/imagens/aspas.png);
+  background-repeat: no-repeat;
+  background-position: right top 14px;
+  background-size: 180px;
+}
+
 @media (max-width: 768px) {
   .destino {
     background-image: none;
