@@ -25,6 +25,12 @@ body {
   background-size: 180px;
 }
 
+.contato {
+  background-image: url(assets/imagens/mapa.png);
+  background-repeat: no-repeat;
+  color: #153130;
+}
+
 @media (max-width: 768px) {
   .destino {
     background-image: none;

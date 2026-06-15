@@ -4,6 +4,7 @@ import Destinos from "./components/sections/Destinos";
 import ComoFunciona from "./components/sections/ComoFunciona";
 import Beneficio from "./components/sections/Beneficio";
 import Depoimentos from "./components/sections/Depoimentos";
+import Contato from "./components/sections/Contato";
 import Footer from "./components/layout/Footer";
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <ComoFunciona />
       <Beneficio />
       <Depoimentos />
+      <Contato />
       <Footer />
     </>
   );
