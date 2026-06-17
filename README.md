@@ -1,16 +1,47 @@
-# React + Vite
+# 🌎 World Connect
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Landing page responsiva para uma agência de intercâmbio desenvolvida como projeto de estudos. O objetivo foi praticar
+a criação de interfaces modernas utilizando React, Tailwind CSS e Vite, com foco em responsividade, otimização de imagens,
+SEO básico e boas práticas de desenvolvimento front-end.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Tecnologias utilizadas
 
-## React Compiler
+- React
+- Vite
+- JavaScript
+- Tailwind CSS
+- React Icons
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Funcionalidades
 
-## Expanding the ESLint configuration
+- Layout responsivo
+- Menu mobile
+- Navegação entre seções
+- Hero section
+- Destinos em destaque
+- Como funciona
+- Benefícios do intercâmbio
+- Depoimentos
+- CTA para contato
+- SEO básico
+- Imagens otimizadas para melhor performance
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+## 📦 Como rodar o projeto
+```bash
+# Instalar dependências
+npm install
+
+# Rodar o projeto
+npm run dev
+
+```
+
+## 🔗 Acesse o projeto
+ Acesse a aplicação online: https://world-connect.netlify.app
+
+## 📷 Preview
+<img width="1901" height="895" alt="Captura de tela 2026-06-17 114325" src="https://github.com/user-attachments/assets/d20cba89-938d-4e37-9e81-4a7bdc54f432" />
+
+
